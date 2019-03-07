@@ -5,7 +5,9 @@ applications:
   - route: timesheets-pal-sachin.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-sachin.apps.evans.pal.pivotal.io
   services:
   - tracker-timesheets-database
+
+services:
+# ...
+- tracker-service-registry
