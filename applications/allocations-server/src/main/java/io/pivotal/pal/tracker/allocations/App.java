@@ -26,4 +26,6 @@ public class App {
     ) {
         return new ProjectClient(restOperations, registrationEndpoint);
     }
+
+
 }
